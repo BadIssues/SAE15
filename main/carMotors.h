@@ -9,11 +9,11 @@
 class CarMotors {
 private:
 	uint8_t currentSpeed; // vitesse courante des deux moteurs
-	bool isMoving; // état du robot, avance (true) ou est arrêté (false)
+	bool isMoving; // ï¿½tat du robot, avance (true) ou est arrï¿½tï¿½ (false)
 public:
 	// initialisation des ports pour commander les moteurs
 	void init(uint8_t p_speed);
-	// réglage de la vitesse de rotation  
+	// rï¿½glage de la vitesse de rotation  
 	void setSpeed(uint8_t p_speed) { currentSpeed = p_speed; }
 	// fait avancer la voiture
 	void goForward();

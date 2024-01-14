@@ -95,9 +95,9 @@ void GestionMotorisation(int analogValueL,int analogValueM,int analogValueR)    
   engine.drive(leftDrive, rightDrive);
 }
 
-void GestionTour()                                                                //Fonction permettant de choisir la couleur de la LED en fonction du nombre de tour/2 réalisé
+void GestionTour()                                                                //Fonction permettant de choisir la couleur de la LED en fonction du nombre de croisementPasse/2 réalisé
 {
-  switch(croisementPasse)                                                         //Switch permettant de choisir un cas en fonction de notre variable tour
+  switch(croisementPasse)                                                         //Switch permettant de choisir un cas en fonction de notre variable croisementPasse
   {
     case 1 :                                                                      
       FastLED.showColor(tabColors[1]);                                            //Choix de la couleur 2 dans notre tableau vert
